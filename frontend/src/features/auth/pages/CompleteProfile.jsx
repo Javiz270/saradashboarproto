@@ -101,10 +101,12 @@ export function CompleteProfile() {
               <select name="career" value={formData.career} onChange={handleChange} required>
                 <option value="">Selecciona tu carrera...</option>
                 <option value="Desarrollo de Software Multiplataforma">Desarrollo de Software Multiplataforma</option>
-                <option value="Entornos Virtuales y Negocios Digitales">Entornos Virtuales y Negocios Digitales</option>
-                <option value="Infraestructura de Redes Digitales">Infraestructura de Redes Digitales</option>
-                <option value="Mantenimiento Industrial">Mantenimiento Industrial</option>
-                <option value="Procesos Industriales">Procesos Industriales</option>
+                <option value="Capital Humano">Capital Humano</option>
+                <option value="Mercadotecnia">Mercadotecnia</option>
+                <option value="Diseño Digital">Diseño Digital</option>
+                <option value="Ciencia de Datos">Ciencia de Datos</option>
+                <option value="Mecatrónica">Mecatrónica</option>
+                <option value="Lengua Inglesa">Lengua Inglesa</option>
                 <option value="Otra">Otra</option>
               </select>
             </div>
@@ -131,7 +133,7 @@ export function CompleteProfile() {
               />
             </div>
           </div>
-          
+
           <button type="submit" className="auth-btn auth-btn-primary" disabled={loading} style={{ marginTop: '1.5rem' }}>
             {loading ? 'Guardando...' : 'Guardar y Continuar'}
           </button>
