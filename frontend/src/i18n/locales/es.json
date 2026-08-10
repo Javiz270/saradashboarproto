@@ -1,0 +1,110 @@
+{
+  "navbar": {
+    "title": "Learning Commons — Panel administrativo",
+    "logout": "Cerrar sesión",
+    "language": "Idioma"
+  },
+  "sidebar": {
+    "tagline": "Módulo Web",
+    "dashboard": "Dashboard",
+    "profile": "Mi perfil",
+    "users": "Usuarios",
+    "resources": "Cubículos",
+    "loans": "Préstamos",
+    "reports": "Reportes"
+  },
+  "login": {
+    "subtitle": "Sistema de Acceso y Registro Automatizado",
+    "description": "Inicia sesión con tu cuenta institucional de Google para acceder al panel de administración del Learning Commons.",
+    "googleButton": "Continuar con Google"
+  },
+  "dashboard": {
+    "greeting": "Hola, {{name}}",
+    "defaultUser": "Administrador",
+    "welcome": "Resumen del estado actual del Learning Commons.",
+    "occupancyTitle": "Ocupación de cubículos",
+    "occupancyLabel": "{{occupied}} de {{total}} cubículos ocupados ({{percentage}}%)",
+    "metrics": {
+      "cubicles": "Cubículos ocupados",
+      "cubiclesSubtitle": "Estado en tiempo real",
+      "loans": "Préstamos activos",
+      "loansSubtitle": "Recursos en circulación",
+      "usersToday": "Accesos hoy",
+      "usersTodaySubtitle": "Visitantes registrados"
+    }
+  },
+  "users": {
+    "title": "Gestión de usuarios",
+    "description": "Administra cuentas, roles y permisos del Learning Commons.",
+    "addUser": "Agregar usuario",
+    "table": {
+      "name": "Nombre",
+      "email": "Correo",
+      "role": "Rol",
+      "status": "Estado",
+      "empty": "No hay usuarios registrados."
+    },
+    "form": {
+      "title": "Nuevo usuario",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "role": "Rol"
+    },
+    "roles": {
+      "student": "Estudiante",
+      "staff": "Personal",
+      "admin": "Administrador"
+    }
+  },
+  "cubicles": {
+    "title": "Cubículos y recursos",
+    "description": "Monitorea la disponibilidad y ocupación de cubículos.",
+    "empty": "No hay cubículos registrados.",
+    "status": {
+      "available": "Disponible",
+      "occupied": "Ocupado",
+      "reserved": "Reservado",
+      "maintenance": "Mantenimiento"
+    }
+  },
+  "loans": {
+    "title": "Préstamos de recursos",
+    "description": "Registra y consulta préstamos de libros y materiales.",
+    "newLoan": "Nuevo préstamo",
+    "activeLoans": "Préstamos activos",
+    "search": "Buscar",
+    "searchPlaceholder": "Buscar por título, autor o ISBN...",
+    "unknownAuthor": "Autor desconocido",
+    "table": {
+      "book": "Libro",
+      "user": "Usuario",
+      "loanDate": "Fecha préstamo",
+      "dueDate": "Fecha devolución",
+      "status": "Estado",
+      "actions": "Acciones",
+      "return": "Liberar libro",
+      "returned": "Liberado",
+      "empty": "No hay préstamos activos."
+    }
+  },
+  "reports": {
+    "title": "Reportes",
+    "description": "Genera y exporta reportes de accesos, préstamos y cubículos.",
+    "filters": {
+      "from": "Desde",
+      "to": "Hasta",
+      "type": "Tipo",
+      "all": "Todos",
+      "access": "Accesos",
+      "loans": "Préstamos",
+      "cubicles": "Cubículos",
+      "apply": "Aplicar filtros"
+    }
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "export": "Exportar",
+    "loading": "Cargando..."
+  }
+}
