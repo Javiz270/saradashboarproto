@@ -14,6 +14,9 @@ class Base(DeclarativeBase):
 
 
 engine_kwargs: dict[str, object] = {"future": True}
+if settings.database_url.startswith("postgresql"):
+    # Disable prepared statements when using Supabase Connection Pooler (PgBouncer)
+    engine_kwargs["connect_args"] = {"prepare_threshold": None}
 
 engine = create_engine(settings.database_url, **engine_kwargs)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False, future=True)
